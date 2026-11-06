@@ -6,6 +6,13 @@
 | NRP | 5027251021 |
 | Kelas | B |
 
+## Daftar Isi
+
+1. [Analisis Blue Team — Bab 9](#analisis-blue-team--bab-9)
+2. [Observasi Peringatan Word — Bab 9](#observasi-peringatan-word--bab-9)
+
+---
+
 # Analisis Blue Team — Bab 9
 
 ## Titik Deteksi/Pencegahan di Rantai Serangan
