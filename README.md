@@ -43,8 +43,7 @@
 
 ## Info Umum
 - OS (Windows / macOS): Windows 11
-- Versi Word: Microsoft 365 / Office build baru yang default-block makro internet
-  (isi persis dari File → Account → About Word)
+- Versi Word: Microsoft Office Professional Plus 2019, Version 2408 (Build 17932.21056 Click-to-Run)
 - Tanggal: 6 November 2026
 
 ## Setup
@@ -56,10 +55,10 @@
 
 | Tahap | Muncul? (Ya/Tidak) | Screenshot | Catatan |
 |---|---|---|---|
-| File ditandai "dari internet" oleh OS | Ya | `screenshots/01-motw-properties.png` | Properties → tab General ada checkbox **"Unblock"** + teks "came from another computer". Inilah MOTW. |
-| Protected View (banner "Enable Editing") | Ya | `screenshots/02-protected-view.png` | Banner kuning muncul pertama, file read-only. Klik "Enable Editing" untuk lanjut. *(Kalau screenshot terlewat, buka ulang file yang masih ber-MOTW untuk menangkapnya.)* |
-| Peringatan makro ("Enable Content") | Ya — dalam 2 bentuk | `screenshots/03a-blocked.png`, `screenshots/03b-enable-content.png` | **Saat MOTW aktif:** banner **merah "SECURITY RISK – Microsoft has blocked macros... the source of this file is untrusted"**, TANPA tombol Enable Content (makro diblok total). **Setelah MOTW dihapus (Unblock):** berganti jadi banner kuning klasik **"Enable Content"**. |
-| Message box PoC muncul (makro jalan) | Tidak → lalu Ya | `screenshots/04-msgbox.png` | **Saat MOTW aktif:** tidak muncul (makro diblok sebelum jalan). **Setelah Unblock + klik Enable Content:** message box "PoC Bab 9 – Client-Side Exploitation (Lab)" muncul → makro berjalan. |
+| File ditandai "dari internet" oleh OS | Ya | <img width="1771" height="922" alt="image" src="https://github.com/user-attachments/assets/ebdb957e-9a0e-43c2-a7c3-7ed5112bb7c0" />| Properties → tab General ada checkbox **"Unblock"** + teks "came from another computer". Inilah MOTW. |
+| Protected View (banner "Enable Editing") | Ya | <img width="1918" height="288" alt="image" src="https://github.com/user-attachments/assets/985fdf2e-7400-45a2-89b2-23cbf39822c4" />| Banner kuning muncul pertama, file read-only. Klik "Enable Editing" untuk lanjut. *(Kalau screenshot terlewat, buka ulang file yang masih ber-MOTW untuk menangkapnya.)* |
+| Peringatan makro ("Enable Content") | Ya — dalam 2 bentuk | <img width="1918" height="459" alt="image" src="https://github.com/user-attachments/assets/314ea29e-a2a9-4049-a3d1-b7b2832a234a" />| **Saat MOTW aktif:** banner **merah "SECURITY RISK – Microsoft has blocked macros... the source of this file is untrusted"**, TANPA tombol Enable Content (makro diblok total). **Setelah MOTW dihapus (Unblock):** berganti jadi banner kuning klasik **"Enable Content"**. |
+| Message box PoC muncul (makro jalan) | Tidak → lalu Ya | <img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/d6be90ac-919e-4b7f-aeee-5635273debff" />| **Saat MOTW aktif:** tidak muncul (makro diblok sebelum jalan). **Setelah Unblock + klik Enable Content:** message box "PoC Bab 9 – Client-Side Exploitation (Lab)" muncul → makro berjalan. |
 
 ## Cek Tanda "dari Internet"
 - Windows: klik kanan `Doc1.docm` → Properties → tab General. Ada tombol/checkbox
